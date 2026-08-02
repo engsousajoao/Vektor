@@ -1,10 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Login - Vektor ERP</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vektor ERP - Login</title>
+
+<link rel="stylesheet" href="sistema.css">
+
 </head>
+
+
 <body>
-    <h1>Login Vektor ERP</h1>
+
+
+<div class="login-container">
+
+
+<div class="logo">
+
+VEKTOR
+
+<span>
+ERP
+</span>
+
+</div>
+
+
+<h2>
+Acesso ao Sistema
+</h2>
+
+
+<input 
+type="email" 
+id="email" 
+placeholder="Digite seu e-mail">
+
+
+<input 
+type="password" 
+id="senha" 
+placeholder="Digite sua senha">
+
+
+<button onclick="login()">
+
+Entrar
+
+</button>
+
+
+<p id="mensagem"></p>
+
+
+</div>
+
+
+
+<script type="module" src="auth.js"></script>
+
+
 </body>
+
 </html>
